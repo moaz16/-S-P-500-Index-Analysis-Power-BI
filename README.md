@@ -8,8 +8,11 @@ In addition to the market analysis, two specific companies are selected with at 
 Here are the key steps we have followed in this project:
 
 1-Data Collection: We gathered data from different reliable sources, including the Wikipedia List of S&P 500 companies, Kaggle's S&P 500 daily monitoring, TradingView's S&P 500 current data, Yahoo Finance's PFE stock data, and Yahoo Finance's DAL stock data.
+
 2- Data Modeling: The project utilized a Galaxy schema to implement the Data Warehouse (DWH) model. This involved designing two separate fact tables and establishing a confirmed dimension between them.
+
 3- Querying the Data: The collected data was stored in a PostgreSQL database, and we performed queries to extract relevant information for analysis.
+
 4- Building the Dashboard: Microsoft Power BI was used to create an interactive and informative dashboard that presents the findings of the analysis. The dashboard consists of multiple levels focusing on different aspects:
 
 - The first dashboard provides general information about the entire S&P 500 index at the index level.
